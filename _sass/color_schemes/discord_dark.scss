@@ -1,17 +1,47 @@
-$body-background-color: rgb(51, 58, 80);
-$sidebar-color: rgb(44, 50, 68);
-$border-color: rgb(32, 34, 46);
+/* Dark theme 
+* Created by Hanprogramer
+* youtube.com/Hanprogramer
+*
+* I make tutorials :3 that's all i can say, thank you.
+*/
 
-$body-text-color: rgb(136, 149, 182);
+$body-background-color: rgb(36, 36, 36);
+$sidebar-color: rgb(37, 37, 37);
+$border-color: rgb(68, 69, 71);
+
+$body-text-color: rgb(216, 216, 216);
 $body-heading-color: $grey-lt-000;
-$nav-child-link-color: rgb(227, 222, 239);
+$nav-child-link-color: rgb(190, 190, 190);
 $search-result-preview-color: $grey-dk-000;
 
-$link-color: $grey-lt-300;
-$btn-primary-color: $blue-200;
-$base-button-color: rgb(54, 61, 85    );
+$link-color: rgb(1, 144, 187);
+$btn-primary-color: white;
+$base-button-color: rgb(83, 83, 83);
 
-$code-background-color: rgb(44, 50, 68);
+$code-background-color: rgb(32, 33, 36);
 $search-background-color: $grey-dk-250;
 $table-background-color: $grey-dk-250;
 $feedback-color: darken($sidebar-color, 27%);
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #555;
+    background: rgba(85, 85, 85, 0.5);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888;
+    background: rgba(136, 136, 136, 0.5);
+  }
